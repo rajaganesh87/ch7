@@ -1,0 +1,2 @@
+cc -g job_code.c client_algo.c  group_algo.c tlv.h tlv_handlers.c header.h thpool.h thpool.c shell.c  server_edit.c -lm -lpthread -ldl -o server 
+cc client_algo.c header.h tlv.h tlv_handlers.c group_algo.c job_code.c client.c -lpthread -ldl -o client
